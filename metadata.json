@@ -1,0 +1,14 @@
+{
+  "name": "jcalles-odoo",
+  "version": "0.1.0",
+  "author": "jcalles",
+  "summary": "Module to install oddo",
+  "license": "Apache 2.0",
+  "source": "oddo",
+  "project_page": "gitgub",
+  "issues_url": "github",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
