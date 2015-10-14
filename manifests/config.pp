@@ -1,6 +1,5 @@
 class odoo::config {
 
-define version($version) {
 $version='8.0'
 $path='/bin:/sbin:/usr/bin:/usr/sbin'
 case $::osfamily {
@@ -74,6 +73,5 @@ if ! defined(Package["wget"])
 
 }
 	 default: { fail("Unrecognized operating system") }
-}
 }
 }
